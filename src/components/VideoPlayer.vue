@@ -17,7 +17,7 @@
 <script>
 import 'video.js/dist/video-js.css'
 import _videojs from 'video.js'
-const videojs = window.videojs || _videojs
+const videojs = _videojs;
 
 export default {
   name: 'VideoPlayer',
